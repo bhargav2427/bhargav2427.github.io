@@ -1,0 +1,388 @@
+html {
+  background-color: #060520;
+}
+
+a,
+p {
+  color: whitesmoke;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* Nav Bar Styles */
+.navbar {
+  background-color: #060520;
+  position: -webkit-sticky;
+}
+
+a.navbar-item {
+  color: whitesmoke;
+}
+
+a.navbar-item:hover {
+  /*color: #363636;*/
+  color: whitesmoke;
+  background-color: rgba(5, 5, 5, 0);
+  border-bottom: 1px solid whitesmoke;
+  /*text-decoration: underline;*/
+}
+
+a.navbar-item:active {
+  border-bottom: 1px solid whitesmoke;
+}
+
+a.navbar-image:hover {
+  border-bottom: 0px;
+}
+
+/* Intro */
+.box {
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  background-color: #060520;
+}
+
+.display-photo {
+  height: 250px;
+  width: auto;
+  border-radius: 100%;
+}
+
+.box.container {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.icons {
+  width: 250px;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name {
+  color: #3273dc;
+  font-weight: bolder;
+}
+
+.introduction {
+  text-align: justify;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.short {
+  font-size: 14px;
+  color: #cccccc;
+  display: block;
+}
+
+.project-card {
+  /*border: 1px solid white;*/
+  display: flex;
+  flex-direction: row;
+}
+
+.project-card a {
+  color: #3273dc;
+}
+
+.project-card a:hover {
+  border-bottom: 1px solid #3273dc;
+}
+
+.project-card p {
+  color: #b0b0b0;
+}
+
+/*
+#more-projects {
+  display: none;
+}
+
+#more {
+  cursor: pointer;
+  color: whitesmoke;
+}
+*/
+/* Skills*/
+
+.skill {
+  width: 100%;
+  border: 1px solid white;
+  height: 1px;
+}
+
+p.is-size-6 {
+  color: whitesmoke;
+}
+
+/* HTML*/
+#progressBarFullHtml {
+  height: 5px;
+  background-color: #3273dc;
+  width: 90%;
+  border-radius: 100px;
+}
+
+#html {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*CSS*/
+#progressBarFullCSS {
+  height: 5px;
+  background-color: #3273dc;
+  width: 85%;
+  border-radius: 100px;
+}
+
+#CSS {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*JS*/
+#progressBarFullJS {
+  height: 5px;
+  background-color: #3273dc;
+  width: 80%;
+  border-radius: 100px;
+}
+
+#JS {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*Flask*/
+#progressBarFullFlask {
+  height: 5px;
+  background-color: #3273dc;
+  width: 87%;
+  border-radius: 100px;
+}
+
+#Flask {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*Angular*/
+#progressBarFullAngular {
+  height: 5px;
+  background-color: #3273dc;
+  width: 80%;
+  border-radius: 100px;
+}
+
+#Angular {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*PHP*/
+#progressBarFullPHP {
+  height: 5px;
+  background-color: #3273dc;
+  width: 75%;
+  border-radius: 100px;
+}
+
+#PHP {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*DBMS*/
+#progressBarFullDBMS {
+  height: 5px;
+  background-color: #3273dc;
+  width: 85%;
+  border-radius: 100px;
+}
+
+#DBMS {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*Python*/
+#progressBarFullPython {
+  height: 5px;
+  background-color: #3273dc;
+  width: 90%;
+  border-radius: 100px;
+}
+
+#Python {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*Bulma*/
+#progressBarFullBulma {
+  height: 5px;
+  background-color: #3273dc;
+  width: 70%;
+  border-radius: 100px;
+}
+
+#Bulma {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*GitHub*/
+#progressBarFullGitHub {
+  height: 5px;
+  background-color: #3273dc;
+  width: 75%;
+  border-radius: 100px;
+}
+
+#GitHub {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*DSAlgo*/
+#progressBarFullDSAlgo {
+  height: 5px;
+  background-color: #3273dc;
+  width: 95%;
+  border-radius: 100px;
+}
+
+#DSAlgo {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/*JAVA*/
+#progressBarFullJAVA {
+  height: 5px;
+  background-color: #3273dc;
+  width: 70%;
+  border-radius: 100px;
+}
+
+#JAVA {
+  width: 100%;
+  height: 5px;
+  /*border: 1px solid whitesmoke;*/
+  margin-top: 5px;
+  border-radius: 100px;
+  background-color: whitesmoke;
+}
+
+/* Work Experience */
+#workExperience .left {
+  text-align: right;
+}
+
+#workExperience .right {
+  text-align: left;
+}
+
+#workExperience p,
+span {
+  color: #cccccc;
+}
+
+.left {
+  border-right: 1px solid #3273dc;
+}
+
+.right {
+  border-left: 1px solid #3273dc;
+}
+
+ul {
+  color: whitesmoke;
+  list-style: disc;
+}
+
+/* Contact */
+
+.contact {
+  background-color: rgba(50, 115, 220, 0.04);
+}
+
+.button {
+  background-color: #060520;
+}
+
+a.button:hover {
+  color: whitesmoke;
+}
+
+/*LeaderShip*/
+#leadership .left {
+  text-align: right;
+}
+
+#leadership .right {
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-image {
+    margin: auto;
+  }
+  .icons {
+    margin: auto;
+  }
+}
