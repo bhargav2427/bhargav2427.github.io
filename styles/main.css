@@ -377,6 +377,8 @@ a.button:hover {
 #leadership .right {
   text-align: left;
 }
+.span-details {
+}
 
 @media screen and (max-width: 768px) {
   .navbar-image {
@@ -384,5 +386,17 @@ a.button:hover {
   }
   .icons {
     margin: auto;
+  }
+  .span-details {
+    display: block;
+    text-align: center;
+  }
+  #skills {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #projects {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
