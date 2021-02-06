@@ -19,6 +19,7 @@ textarea {
 .navbar {
   background-color: #060520;
   position: -webkit-sticky;
+  background-clip: border-box;
 }
 
 a.navbar-item {
