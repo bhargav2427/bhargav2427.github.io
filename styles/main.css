@@ -1,5 +1,6 @@
 html {
   background-color: #060520;
+  scroll-behavior: smooth;
 }
 
 a,
@@ -380,6 +381,12 @@ a.button:hover {
 }
 .span-details {
 }
+.pad-right{
+  padding-right: 3rem;
+}
+.pad-left{
+  padding-left: 3rem;
+}
 
 @media screen and (max-width: 768px) {
   .navbar-image {
@@ -399,5 +406,16 @@ a.button:hover {
   #projects {
     margin-right: 10px;
     margin-left: 10px;
+  }
+  .pad-right{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pad-left{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #nilmay{
+    padding-top: 20px;
   }
 }
