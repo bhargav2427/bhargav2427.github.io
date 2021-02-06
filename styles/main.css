@@ -381,10 +381,10 @@ a.button:hover {
 }
 .span-details {
 }
-.pad-right{
+.pad-right {
   padding-right: 3rem;
 }
-.pad-left{
+.pad-left {
   padding-left: 3rem;
 }
 
@@ -407,15 +407,15 @@ a.button:hover {
     margin-right: 10px;
     margin-left: 10px;
   }
-  .pad-right{
+  .pad-right {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .pad-left{
+  .pad-left {
     padding-left: 20px;
     padding-right: 20px;
   }
-  #nilmay{
+  #nilmay {
     padding-top: 20px;
   }
 }
