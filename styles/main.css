@@ -48,6 +48,7 @@ a.navbar-image:hover {
   display: block;
   flex-direction: column;
   width: 100%;
+  color: #060520;
   background-color: #060520;
 }
 
