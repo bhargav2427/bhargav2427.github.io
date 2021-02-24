@@ -19,12 +19,14 @@ textarea {
 /* Nav Bar Styles */
 .navbar {
   background-color: #060520;
-  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background-clip: border-box;
 }
 
 a.navbar-item {
   color: whitesmoke;
+  font-size: 17px;
 }
 
 a.navbar-item:hover {
@@ -390,6 +392,9 @@ a.button:hover {
 }
 
 @media screen and (max-width: 768px) {
+  .navbar {
+    position: unset;
+  }
   .navbar-image {
     margin: auto;
   }
