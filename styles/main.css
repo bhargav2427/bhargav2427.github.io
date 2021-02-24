@@ -19,8 +19,6 @@ textarea {
 /* Nav Bar Styles */
 .navbar {
   background-color: #060520;
-  position: sticky;
-  top: 0;
   background-clip: border-box;
 }
 
