@@ -422,4 +422,13 @@ a.button:hover {
   #nilmay {
     padding-top: 20px;
   }
+  .projects > .mt-6 {
+    margin-top: 0px;
+  }
+  .projects > .columns {
+    margin-top: 0px;
+  }
+  .projects > .column {
+    margin-top: 0px;
+  }
 }
