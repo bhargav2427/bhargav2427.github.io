@@ -407,6 +407,9 @@ a.button:hover {
     display: block;
     text-align: center;
   }
+  .resume-button {
+    text-align: center;
+  }
   #skills {
     margin-right: 10px;
     margin-left: 10px;
